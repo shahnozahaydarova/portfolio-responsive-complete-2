@@ -242,7 +242,6 @@ img{
 }
 .about__img img{
     width: 200px;
-    height: 250px;
     border-radius: .5rem;
 } 
 
@@ -312,7 +311,7 @@ img{
     box-shadow: 0 4px 25px grey;
     border-radius: .5rem;
     overflow: hidden;
-    background-size: cover;
+    /* background-size: cover; */
 }
 .work__img img{
     transition: 1s;
@@ -416,6 +415,9 @@ img{
         bottom: 15%;
     }
     .about__container,.skills__container{
+        /* display: flex;
+        flex-direction: row; 
+        display: grid;*/
         grid-template-columns: repeat(2.1fr);
         align-items: center;
         text-align: initial;
@@ -424,6 +426,7 @@ img{
         width: 300px;
     }
     .work__container{
+        /* display: grid; */
         grid-template-columns: repeat(3.1fr);
         grid-template-rows: repeat(2.1fr);
         column-gap: 2rem;
