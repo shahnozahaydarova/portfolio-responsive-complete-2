@@ -1,1 +1,1 @@
-### Portfoleo
+### Portfolio2 -- static fayl ulanmagan holdagi portfolio.
